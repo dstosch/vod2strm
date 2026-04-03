@@ -1,0 +1,19 @@
+{
+  "name": "vod2strm",
+  "version": "0.0.14.ds",
+  "description": "Generate .strm and NFO files for Movies & Series from the Dispatcharr DB, with cleanup and CSV reports.",
+  "author": "Daniel Stosch",
+  "entry_point": "plugin.Plugin",
+  "icon": "",
+  "homepage": "https://github.com/dstosch/vod2strm",
+  "repository": "https://github.com/dstosch/vod2strm",
+  "license": "MIT",
+  "python_requires": ">=3.8",
+  "dependencies": [],
+  "permissions": [
+    "database.read",
+    "filesystem.read",
+    "filesystem.write",
+    "background_tasks"
+  ]
+}

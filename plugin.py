@@ -2159,8 +2159,7 @@ def _monitor_check() -> None:
 
     try:
         accounts = M3UAccount.objects.filter(
-            is_active=True,
-            enable_vod=True,
+            is_active=True
         ).only("id", "name", "updated_at", "last_message")
 
         triggered = False
